@@ -1,10 +1,10 @@
 import express from "express";
-import {Profile} from "../models/profile.js";
+import { Profile } from "../models/profile.js";
 
 const router = express.Router();
 
 router.get('/', (_, res) => {
-
+    debugger
     Profile.find().then(profiles => res.json(profiles)).catch(err => res.status(404));
 
 })

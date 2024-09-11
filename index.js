@@ -1,7 +1,7 @@
 import express from "express";
 import mongoose from "mongoose";
-import {MONGO_URI} from "./config/keys.js";
-import {profiles} from "./routes/profiles.js";
+import { MONGO_URI } from "./config/keys.js";
+import { profiles } from "./routes/profiles.js";
 
 const app = express();
 
