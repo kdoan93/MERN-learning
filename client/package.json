@@ -1,0 +1,27 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "frontend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdoan93/MERN-learning.git"
+  },
+  "author": "kdoan93",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kdoan93/MERN-learning/issues"
+  },
+  "homepage": "https://github.com/kdoan93/MERN-learning#readme",
+  "dependencies": {
+    "next": "^14.2.11",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
