@@ -1,0 +1,3 @@
+[submodule "recapp/recapp/server"]
+	path = recapp/recapp/server
+	url = https://github.com/kdoan93/MERN-learning.git
